@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "../styles/components-style/card.css";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { search } from "../api/api";
 
 const Post = ({ url }) => {
@@ -9,9 +9,13 @@ const Post = ({ url }) => {
     //console.log(useParams());
     const { id } = useParams();
     //console.log(id);
+    const navigate = useNavigate();
 
     useEffect(() => {
-        search(`/posts/${id}`, setPost);
+        search(`/posts/${id}`, setPost).catch(() => {
+            navigate("/not-found");
+        
+        });
     }, [id]);
 
     return (
