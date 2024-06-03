@@ -14,10 +14,10 @@
 
 .category-list__category--bienestar {
   color: var(--contrast-light-color);
-  background-color: var(--cor-categoria-bienestar);
+  background-color: var(--cor-category-bienestar);
 }
 
 .category-list__category--comportamiento {
   color: var(--contrast-light-color);
-  background-color: var(--cor-categoria-comportamiento);
+  background-color: var(--cor-category-comportamiento);
 }

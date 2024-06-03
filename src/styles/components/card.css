@@ -41,11 +41,11 @@
 }
 
 .post-card--bienestar {
-  border-color: var(--cor-categoria-bienestar);
+  border-color: var(--cor-category-bienestar);
 }
 
 .post-card--comportamiento {
-  border-color: var(--cor-categoria-comportamiento);
+  border-color: var(--cor-category-comportamiento);
 }
 
 .posts {
