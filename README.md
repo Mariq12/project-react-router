@@ -64,13 +64,13 @@ Quedarías así:
 
 Para iniciar solo el servidor de desarrollo de React:
 
-    npm start
+        npm start
 
 Para iniciar solo json-server:
 
-    npm run json-server
+        npm run json-server
 
 Para iniciar ambos servidores al mismo tiempo:
 
-    npm run start:all
+        npm run start:all
 ---
