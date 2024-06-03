@@ -28,6 +28,9 @@ Se levanta el servidor en el puerto 5000
     [1] http://localhost:5000/categories
     [1] http://localhost:5000/posts
 
+[http://localhost:5000/categories](http://localhost:5000/categories)
+[http://localhost:5000/posts](http://localhost:5000/posts)
+
 ### Opcional
 1. Instalar el paquete cooncurrently con el comando:
 
