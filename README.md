@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# <p align="center">PROJECT REACT ROUTER</p>
+
+## Instalación de dependencias
+
+    npm i axios
+    npm i json-server
+    npm i react-router-dom
+
+
+---
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
