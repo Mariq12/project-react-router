@@ -2,18 +2,18 @@
     "categories": [
         {
             "id": "bienestar",
-            "name": "bienestar",
+            "name": "Bienestar",
             "subcategories": [
-                "higiene",
-                "salud"
+                "Higiene",
+                "Salud"
             ]
         },
         {
             "id": "comportamiento",
-            "name": "comportamiento",
+            "name": "Comportamiento",
             "subcategories": [
-                "entrenamiento",
-                "educacion"
+                "Entrenamiento",
+                "Educacion"
             ]
         }
     ],
@@ -74,5 +74,43 @@
             "category": "comportamiento",
             "subcategory": "entrenamiento"
         }
-    ]
+    ],
+    "products": [
+        {
+          "id": "33s1",
+          "image_url": "https://m.media-amazon.com/images/I/61+Nx3n6IcL._AC_UF894,1000_QL80_.jpg",
+          "name": "DOG FOOD",
+          "price": 12
+        },
+        {
+          "id": "44a1",
+          "image_url": "https://m.media-amazon.com/images/I/815VNCC4+SL.jpg",
+          "name": "Pedigree",
+          "price": 13
+        },
+        {
+          "id": "55s1",
+          "image_url": "https://m.media-amazon.com/images/I/61aIsyUEwyL._AC_UF1000,1000_QL80_.jpg",
+          "name": "Pets Like",
+          "price": 23
+        },
+        {
+          "id": "66s1",
+          "image_url": "https://m.media-amazon.com/images/I/61DND9F3GUL._AC_UF1000,1000_QL80_.jpg",
+          "name": "Bone Broth",
+          "price": 2300
+        },
+        {
+          "id": "77s1",
+          "image_url": "https://m.media-amazon.com/images/I/51HzB8LaJhL._AC_UF894,1000_QL80_.jpg",
+          "name": "Abrigo",
+          "price": 25
+        },
+        {
+          "id": "88c1",
+          "image_url": "https://m.media-amazon.com/images/I/61KlaFvvw0L._AC_UF894,1000_QL80_.jpg",
+          "name": "Blusa rosa",
+          "price": 28
+        }
+      ]
 }

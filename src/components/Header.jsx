@@ -16,9 +16,8 @@ const Header = () => {
             </div>
             <nav className="menu-header">
                 <ul className="menu-items">
-                    <li><Link className="menu-item menu-item--entrar" to="#">Entrar</Link></li>
-                    <li><Link className="menu-item" to="#">Productos</Link></li>
                     <li><Link className="menu-item" to="/">Blog</Link></li>
+                    <li><Link className="menu-item" to="/products">Productos</Link></li>
                     <li><Link className="menu-item" to="/about">Sobre</Link></li>
                 </ul>
             </nav>

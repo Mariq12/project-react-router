@@ -6,6 +6,8 @@ import About from './pages/About';
 import Post from './pages/Post';
 import Category from './pages/Category';
 import Page404 from './pages/Page404';
+import Product from './pages/Product';
+import ListProduct from './components/ListProduct';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +19,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/products" element={<ListProduct />} />
+        <Route path="/products/:id" element={<Product />} />
         <Route path="/about" element={<About />} />
         <Route path="/posts/:id" element={<Post />} />
         <Route path="/category/:id/*" element={<Category />} />

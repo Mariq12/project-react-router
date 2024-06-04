@@ -85,12 +85,11 @@
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--cor-divisao);
+  font-size: 1.3rem;
 }
 
-.menu-item--entrar {
-  background-color: var(--primary-color);
-  color: var(--contrast-light-color);
-  border: none;
+.menu-item:hover {
+  color: var(--cor-category-comportamiento);
 }
 
 .menu-header--ativo {

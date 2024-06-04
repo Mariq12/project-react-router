@@ -5,7 +5,11 @@ export const api = axios.create({
 })
 
 export const search = async (url, setData) => {
-    const response = await api.get(url);
-    //console.log(response);
-    setData(response.data);
-}
+    try {
+        const response = await api.get(url);
+        setData(response.data);
+    } catch (error) {
+        console.error("Error fetching data:", error);
+        throw error;
+    }
+};
