@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/posts/:id" element={<Post />} />
-        <Route path="/category/:id" element={<Category />} />
+        <Route path="/category/:id/*" element={<Category />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </Router>
