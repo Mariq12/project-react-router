@@ -27,9 +27,13 @@ Se levanta el servidor en el puerto 5000
     [1] Endpoints:
     [1] http://localhost:5000/categories
     [1] http://localhost:5000/posts
+    [1] http://localhost:5000/products
 
-[http://localhost:5000/categories](http://localhost:5000/categories)
-[http://localhost:5000/posts](http://localhost:5000/posts)
+URL de categorías: [http://localhost:5000/categories](http://localhost:5000/categories)
+
+URL de posts: [http://localhost:5000/posts](http://localhost:5000/posts)
+
+URL de productos: [http://localhost:5000/products](http://localhost:5000/products)
 
 ### Opcional
 1. Instalar el paquete cooncurrently con el comando:

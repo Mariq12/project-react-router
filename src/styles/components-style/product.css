@@ -1,18 +1,17 @@
 .container {
     padding-top: 1rem;
 }
-.card {
+.card__product {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: fit-content;
-    background: transparent;
     padding: 10px;
 }
 
-.card:hover {
+.card__product:hover {
     transform: scale(1.05);
     filter: brightness(1.);
 }

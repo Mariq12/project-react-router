@@ -18,7 +18,7 @@ const Product = () => {
     return (
         <main className="container flex flex--center">
             {product ? (
-                <article className="card post">
+                <article className="card card__product post">
                     <figure>
                         <img
                             className="card-container--img"

@@ -15,9 +15,19 @@
 .category-list__category--bienestar {
   color: var(--contrast-light-color);
   background-color: var(--cor-category-bienestar);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
 .category-list__category--comportamiento {
   color: var(--contrast-light-color);
   background-color: var(--cor-category-comportamiento);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.category-list__category--bienestar:hover,
+.category-list__category--comportamiento:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }

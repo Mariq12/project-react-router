@@ -18,7 +18,7 @@ const ListProduct = () => {
                     const { id, image_url, name, price } = product;
                     return (
                         <Link to={`/products/${id}`} className="post__card" key={id}>
-                            <article className="card post">
+                            <article className="card card__product post">
                     <figure>
                         <img src={image_url} alt={name} className="card-container--img"
                         />
