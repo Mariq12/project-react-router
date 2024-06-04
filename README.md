@@ -1,6 +1,18 @@
 # <p align="center">PROJECT REACT ROUTER</p>
 ## Descripción
 Proyecto React realizado en el "Curso de React Router: Navegación en una SPA" de Alura Latam.
+
+### En el pproyecto se aprendio a:
+* Crear la navegación de una aplicación en React utilizando la biblioteca React Router Dom.
+* Establecer  rutas en el proyecto para tener una SPA.
+* Hacer una aplicación dinámica con peticiones a una Rest API del blog de Petshop.
+* Crear filtros para buscar posts de manera más eficiente.
+---
+### ✅ Proyecto Completado
+---
+## ⚠️ Importante
+El proyecto esta utilizando api con servidor local.
+
 ## Instalación de dependencias
 
     npm i axios
@@ -78,3 +90,8 @@ Para iniciar ambos servidores al mismo tiempo:
 
         npm run start:all
 ---
+## Ver demo
+![project-react-router](https://github.com/Mariq12/project-react-router/assets/101030215/469ae5ca-8773-4b6d-8b4c-f5f3a28e363e)
+
+Ver en [YouTube](https://youtu.be/oPM3xs-0fh4)
+
