@@ -2,18 +2,18 @@
     "categories": [
         {
             "id": "bienestar",
-            "name": "Bienestar",
+            "name": "bienestar",
             "subcategories": [
-                "Higiene",
-                "Salud"
+                "higiene",
+                "salud"
             ]
         },
         {
             "id": "comportamiento",
-            "name": "Comportamiento",
+            "name": "comportamiento",
             "subcategories": [
-                "Entrenamiento",
-                "Educacion"
+                "entrenamiento",
+                "educacion"
             ]
         }
     ],
